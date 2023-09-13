@@ -43,6 +43,11 @@ const items = ref<MenuProps['items']>([
         key: '/webCodecs/decode/video',
         name: 'decodeVideo',
         label: '视频解码绘制'
+      },
+      {
+        key: '/webCodecs/create/video',
+        name: 'createVideo',
+        label: '创建MP4视频'
       }
     ]
   }

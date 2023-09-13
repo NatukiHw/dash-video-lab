@@ -15,6 +15,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/webCodecs/decode/video',
     name: 'decodeVideo',
     component: () => import('@/views/1_decodeMp4Video/index.vue')
+  },
+  {
+    path: '/webCodecs/create/video',
+    name: 'createVideo',
+    component: () => import('@/views/2_createMp4Video/index.vue')
   }
 ]
 

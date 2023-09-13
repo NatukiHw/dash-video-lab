@@ -26,7 +26,7 @@ import headerNav from '@/components/headerNav/index.vue'
   padding-top: 46px;
   .content {
     position: relative;
-    height: calc(100% - 46px);
+    height: calc(100vh - 46px);
   }
 }
 </style>
